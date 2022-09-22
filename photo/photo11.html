@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<style >
+	img{
+
+width:100%
+} </style>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+	welcome to fishon disgner
+	</title>
+
+	<!--Style CSS-->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<p><img src="treee.png"></p>
+	<img src="free.jpg">
+
+	<p>	<h1>welcome to fashion derrick</h1>
+	<h6>if you have any event welcome fashion work</h6></p>
+
+
+	<div class="myProducts">
+		<div class="myProducts-gallery">
+			<img src="free.jpg"
+
+				alt="click here"
+				onclick="myImageFunction(this)">
+			<img src="derr.jpg"
+
+				alt="click here"
+				onclick="myImageFunction(this)">
+			<img src="aunt.jpg"
+
+				alt="click here"
+				onclick="myImageFunction(this)">
+			<img src="sinapi.jpg" style=" width: 100px; height: 100px", 
+
+				alt="click here"
+				onclick="myImageFunction(this)">
+		</div>
+
+		<div class="image-container">
+			<img id="img-Box" src="free.jpg"
+
+				alt="click here">
+		</div>
+	</div>
+
+	<script>
+		function myImageFunction(productSmallImg) {
+			var productFullImg = document.getElementById("img-Box");
+			productFullImg.src = productSmallImg.src;
+		}
+	</script>
+</body>
+
+</html>
